@@ -35,7 +35,7 @@ let timerId = setInterval(haloweenCountdown,1000);
 
 function happyHaloween(){
     const heading = document.querySelector(".header");
-    heading.textContent = "Trick or treat! It's Haloween!!!";
+    heading.textContent = "Trick or treat! It's Halloween!!!";
     heading.classList.add("orange");
 }
 
